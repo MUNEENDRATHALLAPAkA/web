@@ -1,1 +1,41 @@
-dhfgweahj ganesh
+
+dell@badri MINGW64 ~
+$ cd desktop
+
+dell@badri MINGW64 ~/desktop
+$ cd demo
+
+dell@badri MINGW64 ~/desktop/demo
+$ git init
+Initialized empty Git repository in C:/Users/dell/Desktop/demo/.git/
+
+dell@badri MINGW64 ~/desktop/demo (master)
+$ git config --global user.email 'badhri118@gmail.com'
+
+dell@badri MINGW64 ~/desktop/demo (master)
+$ git config --global user.name 'badhri'
+
+dell@badri MINGW64 ~/desktop/demo (master)
+$ git add .
+
+dell@badri MINGW64 ~/desktop/demo (master)
+$ git commit -m all
+[master (root-commit) 7a44b48] all
+ 1 file changed, 1 insertion(+)
+ create mode 100644 demo.txt.txt
+
+dell@badri MINGW64 ~/desktop/demo (master)
+$ git remote add origin https://github.com/MUNEENDRATHALLAPAkA/web.git
+
+dell@badri MINGW64 ~/desktop/demo (master)
+$ git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 209 bytes | 209.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MUNEENDRATHALLAPAkA/web.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+dell@badri MINGW64 ~/desktop/demo (master)
